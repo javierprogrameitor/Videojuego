@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/favicon.png" type="image/png">
+    <script type="module" src="js/index.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <audio id="backgroundMusic" src="audio/Ghostbusters 8bit.mp3" loop></audio>
+    <audio id="gameSound"></audio>
+    <title>Pang</title>
+</head>
+
+<body>
+    <div id="container" class="container hide">
+        <p id="lifes">Lifes: </p>
+        <p id="score">Score: 0 </p>
+    </div>
+    <div id=gameBoard class="gameBoard">
+        <h1 id="startMsg" class="animacion">Press any key to start</h1>
+        <div class="manual" id="manual">
+            <div class="movement">
+                <p> Move left: A or <i class='bx bxs-caret-left-square'></i></p>
+                <p> Move Right: D or <i class='bx bxs-caret-right-square'></i> </p>
+                <p> Shot: Space or W or <i class='bx bxs-caret-up-square'></i></p>
+            </div>
+        </div>
+        <div class="hide restart" id="restartMsg">
+            <p> Press F5 to restart</p>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
